@@ -1,0 +1,43 @@
+
+a) npm init
+b) npm init -y
+c) npm install packageName
+   eg: npm install express
+
+d) c) npm install packageName -g
+
+e) npm i packageName    
+   eg: npm i express 
+
+f) npm uninstall moduleName
+   eg:npm uninstall express   
+
+g) npm install express -save   
+h) npm i nodemon -save-dev
+-------------------------------------------------------
+
+       How to Use EJS
+----------------------------------
+a) Install EJS 
+   npm i ejs -save   
+b) Create views folder in Application folder   
+c) set view engine in index.js
+   app.set('view engine', 'ejs')
+d) instead of send use render('viewName')
+
+-----------------------------------------------------------------------
+       How to Add Images/Stylesheets/Javascripts in Express project
+------------------------------------------------------------------------    
+a) Create "public" folder inside Application Folder 
+b) Create "images" folder inside "public" 
+c) write below line in index.js
+      app.use(express.static('public')) 
+
+  CSS
+-------
+a) Create "stylesheets" folder inside "public" 
+b) create style1.css inside folder "stylesheets"
+b) open "header.ejs" and link "style1.css" file
+   <link href="stylesheets/style1.css" rel="stylesheet" />
+
+
